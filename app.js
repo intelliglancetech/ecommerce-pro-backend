@@ -12,7 +12,7 @@ const slugRouter = require("./routes/slugs");
 const orderProductRouter = require('./routes/customer_order_product');
 const wishlistRouter = require('./routes/wishlist');
 var cors = require("cors");
-
+//
 const app = express();
 
 app.use(express.json());
